@@ -9,12 +9,6 @@ class PlaceDetailScreen extends StatelessWidget {
 
   final Place place;
 
-  // String get locationImage {
-  //   final lat = place.location.latitude;
-  //   final lng = place.location.longitude;
-  //   return 'https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lng&zoom=16&size=600x300&maptype=roadmap&markers=color:green%7Clabel:G%7C$lat,$lng&key=AIzaSyB0W_UtIxoT0KNfSXIHj7G6HqQbzF98Ezw';
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
