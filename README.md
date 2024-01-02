@@ -1,16 +1,9 @@
 # favorite_places
 
-A new Flutter project.
+The Flutter application opens with a display of locally saved places. Clicking on a list item navigates to a details page. The home screen includes an icon in the app bar, allowing users to access the "Add Place" screen. On this screen, users can provide the following details:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Enter the place name manually.
+Capture a photo using the camera feature.
+Retrieve the current location from the map, with a preview displayed in the UI.
+Choose the "Select on Map" option, and preview the selected location in the UI.
+Upon clicking the "Add Place" button, the entered details are saved into Sqflite. The state management is facilitated using Riverpod.
